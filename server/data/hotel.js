@@ -28,8 +28,8 @@ const dataLayer = {
             currency: 'USD'
           },
           headers: {
-            'X-RapidAPI-Key': '7OoVPagJVznLheEAs6vfrEzSw2tZ1vLu',
-            'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
+            'X-RapidAPI-Key': config ["api_kez"],
+            'X-RapidAPI-Host': config ["api_host"]
           }
         };
 
@@ -52,8 +52,8 @@ const dataLayer = {
           url: 'https://hotels4.p.rapidapi.com/locations/v2/search',
           params: {query: 'new york', locale: 'en_US', currency: 'USD'},
           headers: {
-            'X-RapidAPI-Key': '7OoVPagJVznLheEAs6vfrEzSw2tZ1vLu',
-            'X-RapidAPI-Host': 'hotels4.p.rapidapi.com'
+            'X-RapidAPI-Key': config ["api_kez"],
+            'X-RapidAPI-Host': config ["api_host"]
           }
         };
 

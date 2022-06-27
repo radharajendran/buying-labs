@@ -6,6 +6,7 @@ import logo from "../images/airbnb.png";
 import SearchIcon from "@mui/icons-material/Search";
 import { ConnectButton } from "web3uikit";
 import SearchBar from "./SearchBar";
+import { useDispatch } from 'react-redux'
 
 
 import {
@@ -22,6 +23,9 @@ import PersonIcon from "@mui/icons-material/Person";
 const Home = ({ onLoad, onPlaceChanged }) => {
   let isMedium = useMediaQuery("(max-width:900px)");
   let isMobile = useMediaQuery("(max-width:750px)");
+
+  const dispatch = useDispatch()
+
 
   const [destination, setDestination] = useState("");
   const [checkIn, setCheckIn] = useState(

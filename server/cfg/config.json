@@ -1,4 +1,4 @@
 {
-    "dbConnection": "mongodb://localhost:27017/hammoq",
-    "SECRET_KEY": "jAmMmOqAuThKey@!$"
+    "api_key": "7OoVPagJVznLheEAs6vfrEzSw2tZ1vLu",
+    "api_host": "jAmMmOqAuThKey@!$"
 }
